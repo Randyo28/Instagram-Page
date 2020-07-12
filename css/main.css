@@ -1,0 +1,347 @@
+html{font-family:sans-serif;
+  background-color: #FAFAFA;
+
+}
+a{
+  text-decoration:none;
+}
+/*//////////////////
+/*/
+
+#header{
+  background-color:white;
+  padding:10px;
+  border-bottom: 1px solid gray;
+}
+
+#header i{
+  color:black;
+}
+
+#header a{
+  color:black;
+}
+
+
+#header .logo-icon{
+  padding:15px 0px 0 102px;
+  text-decoration:none;
+  color: black;
+  font-size:40px;
+  display: inline-block;
+  border-right: 2px solid;
+  width:7%;
+}
+#header .logo-icon i{
+  padding-left: 25%;
+}
+
+
+#header .logo-word{
+  display: inline-block;
+  font-size: 40px;
+  padding: 15px 20px 0 15px;
+  font-family: serif;
+}
+
+
+#header .search-area{
+  display:inline-block;
+  padding:10px 100px 0 115px;
+}
+
+#header .search-area input{
+  padding:6px 50px;
+}
+
+#header .search-area .placeholder{
+  padding:0 10px;
+}
+
+#header .option-links{
+  display: inline-block;
+  padding: 0 0 0 150px;
+  font-size: 40px;
+}
+
+#header .option-links ul li{
+  display:inline-block;
+  padding:0 10px;
+}
+
+/*//////
+//*/
+
+#top-area {
+  padding:28px 28px 0 0;
+  margin:0 67px 0 117px;
+  text-align: center;
+  width:78%;
+}
+#top-area .top-section{
+  padding-bottom: 25px;
+}
+
+#top-area .Insta-profile-pic{
+  padding: 10px 64px 0 0px;
+  display:inline-block;
+  vertical-align: top;
+}
+
+#top-area .Insta-profile-pic img{
+  border-radius:50%;
+  vertical-align: top;
+}
+
+#top-area .Profile-info {
+  display:inline-block;
+  font-size: 25px;
+  vertical-align:top;
+  padding:10px 15px 0 0px;
+}
+#top-area  h6{
+  padding: 0 15px 0 0;
+  display: inline-block;
+}
+
+#top-area .edit-button{
+  display:inline-block;
+  padding:4px 10px 3px 10px;
+  cursor:pointer;
+}
+
+#top-area button{
+  font-size:20px;
+  background-color: #FAFAFA;
+  border-radius: 4px;
+  cursor:pointer;
+}
+
+#top-area .setting-button {
+  display: inline-block;
+  padding:10px 10px;
+
+
+}
+#top-area .setting-button i{
+  font-size:25px;
+  color:black;
+}
+
+#top-area .number-info{
+  padding:10px 0 0 0 ;
+
+}
+#top-area .number-info ul{
+  font-size: 19px;
+
+}
+#top-area .number-info li{
+  display: inline-block;
+  margin: 0 25px 0px 0px
+}
+/*///////////////////////////////////////////////////
+////*/
+#main-content{
+  border-top:1px solid #d8dce3;
+  padding:12px 10px 0px 10px;
+  margin:0 67px 0 117px;
+  background-color:#FAFAFA;
+  width:74%;
+}
+
+#main-content .menu{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#main-content .menu li{
+display: inline;
+padding:0 0 0 50px;
+float:right;
+}
+#main-content .menu i{
+  color:black;
+}
+#main-content .menu span{
+  margin: 0 22px 0 0;
+  font-size:14px;
+  color:black;
+}
+#main-content .Photo-area{
+width:100%;
+padding:50px 0 0 50px;
+}
+
+.photo.selected{
+  -webkit-box-shadow: 0px 0px 161px -5px rgba(48,131,255,1);
+-moz-box-shadow: 0px 0px 161px -5px rgba(48,131,255,1);
+box-shadow: 0px 0px 161px -5px rgba(48,131,255,1);
+}
+#main-content .section-1{
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:space-between;
+  margin-bottom: 35px;
+}
+#main-content  .photo-1{
+  float: left;
+  width:280px;
+  height:294px;
+  padding:0 0 0 0;
+  backface-visibility: hidden;
+}
+
+#main-content .section-1 .photo-1:hover{
+  opacity: .8;
+  transition: ease-in-out;
+}
+
+#main-content .section-1 a {
+  opacity: 0;
+  position: absolute;
+  color: white;
+  cursor: default;
+  text-align: center;
+  transform:translate(112px,145px);
+  visibility: visible;
+}
+
+
+/*#main-content .section-1:hover a {
+  opacity:1 ;
+  position: absolute;
+  color: white;
+  text-align: center;
+  backface-visibility: visible;
+}*/
+
+  #main-content .section-1 .photo-2{
+    float: left;
+    width:280px;
+    height:294px;
+    padding:0 0 0 0;
+    backface-visibility: hidden;
+  }
+  #main-content .section-1 .photo-2:hover {
+    opacity: 0.8;
+    transition:  ease-in-out;
+  }
+  #main-content .section-1 .photo-3{
+    float: left;
+    width:280px;
+    height:294px;
+    padding:0 0 0 0;
+    backface-visibility: hidden;
+  }
+  #main-content .section-1 .photo-3:hover {
+    opacity: 0.8;
+    transition:  ease-in-out;
+  }
+  #main-content .section-2{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-between;
+    margin-bottom: 35px;
+  }
+
+  #main-content .section-2 .photo-4{
+    float: left;
+    width:280px;
+    height:294px;
+    padding:0 0 0 0;
+  }
+  #main-content .section-2 .photo-4:hover {
+    opacity: 0.8;
+    transition:  ease-in-out;
+  }
+  #main-content .section-2 .photo-5{
+    float: left;
+    width:280px;
+    height:294px;
+    padding:0 0 0 0;
+  }
+
+  #main-content .section-2 .photo-5:hover {
+    opacity: 0.8;
+    transition:  ease-in-out;
+  }
+  #main-content .section-2 .photo-6{
+    float: left;
+    width:280px;
+    height:294px;
+    padding:0 0 0 0;
+  }
+
+  #main-content .section-2 .photo-6:hover {
+    opacity: 0.8;
+    transition:  ease-in-out;
+  }
+
+  #main-content .section-3{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-between;
+    margin-bottom: 35px;
+  }
+  #main-content .section-3 .photo-7{
+    float: left;
+    width:280px;
+    height:294px;
+    padding:0 0 0 0;
+  }
+
+  #main-content .section-3 .photo-7:hover {
+    opacity: 0.8;
+    transition:  ease-in-out;
+  }
+  #main-content .section-3 .photo-8{
+    float: left;
+    width:280px;
+    height:294px;
+    padding:0 0 0 0;
+  }
+
+  #main-content .section-3 .photo-8:hover {
+    opacity: 0.8;
+    transition:  ease-in-out;
+  }
+  #main-content .section-3 .photo-9{
+    float: left;
+    width:280px;
+    height:294px;
+    padding:0 0 0 0;
+  }
+
+  #main-content .section-3 .photo-9:hover {
+    opacity: 0.8;
+    transition:  ease-in-out;
+  }
+  /*///////////////////////////////////////////
+  //*/
+
+  #Footer{
+    padding:0 20px;
+  }
+  #Footer .options{
+  padding-bottom:30px;
+  margin:0 110px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size:14px;
+  }
+  #Footer  ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #Footer li{
+    padding-left:12px;
+  }
+  #Footer a{
+    color:rgba(var(--fe0,0,55,107),1);
+  }
+  #Footer .end{
+    margin-right:-20px;
+  }
