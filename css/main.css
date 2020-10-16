@@ -12,6 +12,7 @@ a{
   background-color:white;
   padding:10px;
   border-bottom: 1px solid gray;
+  display: flex;
 }
 
 #header i{
@@ -28,7 +29,6 @@ a{
   text-decoration:none;
   color: black;
   font-size:40px;
-  display: inline-block;
   border-right: 2px solid;
   width:7%;
 }
@@ -38,7 +38,6 @@ a{
 
 
 #header .logo-word{
-  display: inline-block;
   font-size: 40px;
   padding: 15px 20px 0 15px;
   font-family: serif;
@@ -47,7 +46,8 @@ a{
 
 #header .search-area{
   display:inline-block;
-  padding:10px 100px 0 115px;
+  padding:24px 26px 0 20px;
+  margin:auto;
 }
 
 #header .search-area input{
@@ -59,8 +59,8 @@ a{
 }
 
 #header .option-links{
-  display: inline-block;
-  padding: 0 0 0 150px;
+  display: inline-flex;
+  padding: 10px 0 0 84px;
   font-size: 40px;
 }
 
@@ -145,9 +145,8 @@ a{
 #main-content{
   border-top:1px solid #d8dce3;
   padding:12px 10px 0px 10px;
-  margin:0 67px 0 117px;
+  margin:0 50px 0 50px;
   background-color:#FAFAFA;
-  width:74%;
 }
 
 #main-content .menu{
@@ -170,7 +169,9 @@ float:right;
 }
 #main-content .Photo-area{
 width:100%;
-padding:50px 0 0 50px;
+padding:50px 0 0 0;
+display:flex;
+justify-content: space-evenly;
 }
 
 .photo.selected{
@@ -179,9 +180,6 @@ padding:50px 0 0 50px;
 box-shadow: 0px 0px 161px -5px rgba(48,131,255,1);
 }
 #main-content .section-1{
-  display:flex;
-  flex-flow:row wrap;
-  justify-content:space-between;
   margin-bottom: 35px;
 }
 #main-content  .photo-1{
@@ -239,9 +237,6 @@ box-shadow: 0px 0px 161px -5px rgba(48,131,255,1);
     transition:  ease-in-out;
   }
   #main-content .section-2{
-    display:flex;
-    flex-flow:row wrap;
-    justify-content:space-between;
     margin-bottom: 35px;
   }
 
@@ -279,9 +274,6 @@ box-shadow: 0px 0px 161px -5px rgba(48,131,255,1);
   }
 
   #main-content .section-3{
-    display:flex;
-    flex-flow:row wrap;
-    justify-content:space-between;
     margin-bottom: 35px;
   }
   #main-content .section-3 .photo-7{
@@ -346,12 +338,36 @@ box-shadow: 0px 0px 161px -5px rgba(48,131,255,1);
     margin-right:-20px;
   }
 
-@media (max-width: 500px){
+  @media screen and (max-width: 375px){
 
-  #main-content .Photo-area{
-  width:100%;
-  padding:50px 0 0 50px;
-  display: flex;
+    #header .search-area {
+      display: inline-block;
+      padding: 10px 35px 0 40px;
   }
 
+    #header .search-area input {
+      padding: 6px 10px;
+  }
+
+
+  #header .option-links {
+    display: inline-block;
+    padding-left: 40px;
+    font-size: 40px;
 }
+
+    #header .option-links ul{
+      list-style: none;
+      display: flex;
+      padding: 10px;
+      }
+    
+    
+    
+    #main-content .Photo-area{
+    width:100%;
+    padding:50px 0 0 50px;
+    
+    }
+
+  }
